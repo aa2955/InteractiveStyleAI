@@ -1,0 +1,39 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React Build
+build/
+
+# Python Bytecode and Cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+pip-log.txt
+
+# Package Managers
+*.lock
+*.egg-info/
+
+# Logs
+*.log
+
+# OS-Specific
+.DS_Store
+Thumbs.db
+
+# IDE-Specific
+.idea/
+.vscode/
+
+# Environment Variables
+.env
