@@ -1,0 +1,51 @@
+.gallery-page {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .gallery-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: var(--accent-color);
+  }
+  
+  .empty-gallery {
+    color: var(--secondary-text);
+  }
+  
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .gallery-item {
+    background: var(--button-bg);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .gallery-image {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .gallery-actions {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .gallery-btn {
+    background-color: var(--accent-color);
+    border: none;
+    padding: 8px 12px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
